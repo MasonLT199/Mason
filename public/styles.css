@@ -1,0 +1,50 @@
+/*|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~||
+||          Mason's Website CSS         ||
+||          By: Mason Timmerman         ||
+||           February 28, 2018          ||
+||~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|*/
+
+body {
+    font-family: 'Mina', sans-serif;
+
+    background-color: rgb(255,255,255);
+
+}
+
+#titleContainer {
+    background: url("./images/stormtrooper-with-reflections.jpg") center;
+}
+
+#title {
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 35px;
+
+    color: white;
+    background: rgb(59, 2, 6);
+    mix-blend-mode: multiply;
+}
+
+nav {
+    background-color: rgb(189, 189, 189);
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    height: 40px;
+
+    font-variant: small-caps;
+    font-weight: bold;
+    
+}
+
+.navElement {
+    font-size: 20px;
+}
+
+.navElement:hover {
+    background-color: grey;
+}

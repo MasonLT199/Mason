@@ -1,0 +1,27 @@
+{
+  "name": "masonwebsite",
+  "version": "1.0.0",
+  "description": "This is my website to house a portfolio of other projects and my resume.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "ip": "^1.1.5",
+    "nodemon": "^1.17.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MasonLT199/Mason.git"
+  },
+  "author": "Mason Timmerman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MasonLT199/Mason/issues"
+  },
+  "homepage": "https://github.com/MasonLT199/Mason#readme"
+}
